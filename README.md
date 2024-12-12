@@ -171,7 +171,7 @@ __Circuit Diagram__
     <img src="images\ganttchart.png" height="500">
 </div>
 <hr>
-
+<hr>
 ## How To Run
 ssh -X jetson@ucsd-yellow.local
 
@@ -274,7 +274,7 @@ The output should read:
 
 ## Acknowledgements
 Special thanks to Professor Jack Silberman for delivering the course!  
-Thanks to TA Winston Chou and Ta Alexander for giving suggestions to our project!  
+Many thanks to TA Winston Chou and Ta Alexander for giving suggestions to our project!  
 
 
 **Programs Reference:**
