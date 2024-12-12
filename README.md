@@ -77,9 +77,10 @@ We propose developing an autonomous car navigation system using Rapidly-Explorin
 <hr>
 
 ## Final Project Videos
-
+Click on image to open video in new tab:
+# Simulation
 <a href="https://drive.google.com/file/d/1uNJ-7kcVFmZIDjf2C7AvW2b8j3kYdgOt/view?usp=sharing" target="_blank">
-  <img src="./images/Screenshot%202024-12-11%20214456.png" alt="Simulation">
+  <img src="./images/Screenshot%202024-12-11%20214456.png" alt="Simulation" height="300">
 </a>
 
 
