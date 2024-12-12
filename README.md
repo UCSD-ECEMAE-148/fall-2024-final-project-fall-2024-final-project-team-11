@@ -23,8 +23,7 @@
         </ul>
     <li><a href="#hardware">Hardware</a></li>
     <li><a href="#gantt-chart">Gantt Chart</a></li>
-    <li><a href="#course-deliverables">Course Deliverables</a></li>
-    <li><a href="#How To Run">Project Reproduction</a></li>
+    <li><a href="#How To Run">How To Run</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
     <li><a href="#contacts">Contacts</a></li>
   </ol>
