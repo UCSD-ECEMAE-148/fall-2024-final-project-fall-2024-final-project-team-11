@@ -217,11 +217,10 @@ ros-<ros-distro>-nav2-bringup
 source /opt/ros/<ros-distro>/setup.bash
 ```
 
-## Install livox_ros_driver2 and Livox-SDK/Livox-SDK2 (sent in discord)
+## Install livox_ros_driver2 and Livox-SDK/Livox-SDK2 
+- https://github.com/Livox-SDK/livox_ros_driver2
 
-Develop our own code for 
-Check out robocar 
-
+## Installing Cart Repos
 robocar/repos/racer.repos:
 
 # Pointcloud->Laser scan
@@ -232,12 +231,13 @@ In this code change the Triton AI to hku-mars/FAST LIO…
   - Change IP address of livox_ros_driver2/config/MID360_config.json
   - Change line 28 to 192.168.1.124
 ## Launching Lidar
+- Git clone: https://github.com/koide3/livox_to_pointcloud2
 `ros2 launch livox_ros_driver2 rviz_MID360_launch.py`
 
 ## Installing Livox-Pointcloud2
 Launch `ros2 run livox_to_pointcloud2 livox_to_pointcloud2_node`
 
-Map generation, RRT pathing, and RPP controller in simulated environment
+## Map generation, RRT pathing, and RPP controller in simulated environment
 1. Install ROS2 Humble and Gazebo
 2. Install required packages: `slam_toolbox`, `ompl`, `tf2`, `nav-msgs`, `rviz2`, and any required dependencies
 3. Create package with desired name in ROS2 workspace, place the following files into the src folder: `map_generation.py`, `rrt_ompl.py`, `rpp_controller.py`
