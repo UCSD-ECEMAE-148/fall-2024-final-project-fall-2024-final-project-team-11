@@ -77,7 +77,7 @@ We propose developing an autonomous car navigation system using Rapidly-Explorin
 
 ## Final Project Videos
 Click on image to open video in new tab:
-# Simulation
+### Simulation
 <a href="https://drive.google.com/file/d/1uNJ-7kcVFmZIDjf2C7AvW2b8j3kYdgOt/view?usp=sharing" target="_blank">
   <img src="./images/Screenshot%202024-12-11%20214456.png" alt="Simulation" height="300">
 </a>
@@ -248,7 +248,7 @@ Launch `ros2 run livox_to_pointcloud2 livox_to_pointcloud2_node`
 ## Map generation, RRT pathing, and RPP controller in simulated environment
 1. Install ROS2 Humble and Gazebo
 2. Install required packages: `slam_toolbox`, `ompl`, `tf2`, `nav-msgs`, `rviz2`, and any required dependencies
-3. Create package with desired name in ROS2 workspace, place the following files into the src folder: `map_generation.py`, `rrt_ompl.py`, `rpp_controller.py`
+3. Create package called `autonomous_pkg` in ROS2 workspace, place the following files into the src folder: `map_generation.py`, `rrt_ompl.py`, `rpp_controller.py`
 4. Run `colcon build` and `source install/setup.bash` on each terminal used: will need at least 5 terminals
 5. Run Gazebo with the following command: `ros2 launch turtlebot3_gazebo empty_world.launch.py`
    - Place obstacles in desired location - red axis on Gazebo is x-axis, green is y-axis
@@ -262,10 +262,10 @@ The output should read:
 [async_slam_toolbox_node-1] [INFO] [1733721265.456959936] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
 [async_slam_toolbox_node-1] [INFO] [1733721265.459165442] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
 ```
-7. Run map generation script by running: `ros2 run [name_of_package] map_generation.py`
+7. Run map generation script by running: `ros2 run autonomous_pkg map_generation.py`
    - An empty costmap with a point representing the robot with a circle around it representing the radius and a point representing the goal should show 
-8. Run controller script by running: `ros2 run [name_of_package] rpp_controller.py`
-9. Run RRT path planning script by running: `ros2 run [name_of_package] rrt_ompl.py`
+8. Run controller script by running: `ros2 run autonomous_pkg rpp_controller.py`
+9. Run RRT path planning script by running: `ros2 run autonomous_pkg rrt_ompl.py`
     - A red line path should appear on the global costmap, going to the goal
     - Everytime a new obstacle cell is detected within the radius of the robot, the RRT path replans
     - The robot should automatically start following the path until the goal where it stops
