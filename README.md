@@ -173,7 +173,7 @@ __Circuit Diagram__
 
 <hr>
 ## How To Run
--ssh -X jetson@ucsd-yellow.local
+- ssh -X jetson@ucsd-yellow.local
 
 Pulling docker images(files)
 - `cd projects/ `
