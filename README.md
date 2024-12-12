@@ -170,10 +170,10 @@ __Circuit Diagram__
 <div align="center">
     <img src="images\ganttchart.png" height="500">
 </div>
-<hr>
+
 <hr>
 ## How To Run
-ssh -X jetson@ucsd-yellow.local
+-ssh -X jetson@ucsd-yellow.local
 
 Pulling docker images(files)
 - `cd projects/ `
