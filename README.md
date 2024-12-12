@@ -237,6 +237,14 @@ In this code change the Triton AI to hku-mars/FAST LIO…
 ## Installing Livox-Pointcloud2
 Launch `ros2 run livox_to_pointcloud2 livox_to_pointcloud2_node`
 
+## Pointcloud-Laserscan
+- Git clone https://github.com/ros-perception/pointcloud_to_laserscan
+  -- Automatically outputing a topic of laserscan data that can be visualized in Rviz
+
+## Important: Creates a launch file to run all the ros2 code at the same time. 
+- Take a look at example  in /src/my_launch_package/launch
+`ros2 launch my_launch_package <launch file name>`
+
 ## Map generation, RRT pathing, and RPP controller in simulated environment
 1. Install ROS2 Humble and Gazebo
 2. Install required packages: `slam_toolbox`, `ompl`, `tf2`, `nav-msgs`, `rviz2`, and any required dependencies
@@ -289,23 +297,4 @@ README.md Format, reference to [spring-2024-final-project-team-7](https://github
 * Liem Le - ltle@ucsd.edu
 * Jusung Park - jup018@ucsd.edu
 * Anna Hsu - a6hsu@ucsd.edu
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Pointcloud-Laserscan
-
 
