@@ -1,0 +1,245 @@
+[0.132s] Invoking command in '/home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2': /usr/bin/cmake /home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2 -DROS_EDITION=ROS2 -DHUMBLE_ROS= -DCMAKE_INSTALL_PREFIX=/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2
+[0.583s] -- The C compiler identification is GNU 9.4.0
+[1.024s] -- The CXX compiler identification is GNU 9.4.0
+[1.071s] -- Check for working C compiler: /usr/bin/cc
+[1.542s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.549s] -- Detecting C compiler ABI info
+[2.030s] -- Detecting C compiler ABI info - done
+[2.118s] -- Detecting C compile features
+[2.120s] -- Detecting C compile features - done
+[2.145s] -- Check for working CXX compiler: /usr/bin/c++
+[2.676s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.683s] -- Detecting CXX compiler ABI info
+[3.218s] -- Detecting CXX compiler ABI info - done
+[3.304s] -- Detecting CXX compile features
+[3.308s] -- Detecting CXX compile features - done
+[3.314s] -- main project dir: /home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2
+[3.322s] -- main project dir: /home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/samples
+[3.347s] -- Configuring done
+[3.530s] -- Generating done
+[3.543s] CMake Warning:
+[3.544s]   Manually-specified variables were not used by the project:
+[3.545s] 
+[3.546s]     HUMBLE_ROS
+[3.546s]     ROS_EDITION
+[3.547s] 
+[3.547s] 
+[3.548s] -- Build files have been written to: /home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2
+[3.561s] Invoked command in '/home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2' returned '0': /usr/bin/cmake /home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2 -DROS_EDITION=ROS2 -DHUMBLE_ROS= -DCMAKE_INSTALL_PREFIX=/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2
+[3.579s] Invoking command in '/home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2': /usr/bin/cmake --build /home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2 -- -j6 -l6
+[3.832s] [35m[1mScanning dependencies of target livox_lidar_sdk_shared[0m
+[3.838s] [35m[1mScanning dependencies of target livox_lidar_sdk_static[0m
+[4.347s] [  1%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/device_manager.cpp.o[0m
+[4.348s] [  2%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/__/3rdparty/FastCRC/FastCRCsw.cpp.o[0m
+[4.351s] [  3%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/livox_lidar_sdk.cpp.o[0m
+[4.353s] [  4%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/device_manager.cpp.o[0m
+[4.370s] [  6%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/__/3rdparty/FastCRC/FastCRCsw.cpp.o[0m
+[4.414s] [  7%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/params_check.cpp.o[0m
+[5.166s] [  8%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/parse_cfg_file.cpp.o[0m
+[5.237s] [  9%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/livox_lidar_sdk.cpp.o[0m
+[24.821s] [ 10%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/upgrade_manager.cpp.o[0m
+[25.779s] [ 12%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/io_loop.cpp.o[0m
+[26.719s] [ 13%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/params_check.cpp.o[0m
+[27.237s] [ 14%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/thread_base.cpp.o[0m
+[28.787s] [ 15%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/io_thread.cpp.o[0m
+[30.413s] [ 16%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/logging.cpp.o[0m
+[31.490s] [ 18%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/parse_cfg_file.cpp.o[0m
+[32.014s] [ 19%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/network/unix/network_util.cpp.o[0m
+[32.594s] [ 20%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_base.cpp.o[0m
+[33.672s] [ 21%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_epoll.cpp.o[0m
+[35.052s] [ 22%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_poll.cpp.o[0m
+[37.302s] [ 24%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_select.cpp.o[0m
+[37.412s] [ 25%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_kqueue.cpp.o[0m
+[40.306s] [ 26%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/wake_up/unix/wake_up_pipe.cpp.o[0m
+[40.574s] [ 27%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/comm/comm_port.cpp.o[0m
+[40.872s] [ 28%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/comm/sdk_protocol.cpp.o[0m
+[41.534s] [ 30%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/comm/generate_seq.cpp.o[0m
+[42.795s] [ 31%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/upgrade/firmware.cpp.o[0m
+[44.829s] [ 32%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/upgrade/livox_lidar_upgrader.cpp.o[0m
+[46.496s] [ 33%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/logger_handler/logger_manager.cpp.o[0m
+[50.532s] [ 34%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/logger_handler/logger_handler.cpp.o[0m
+[52.295s] [ 36%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/upgrade_manager.cpp.o[0m
+[54.718s] [ 37%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/logger_handler/file_manager.cpp.o[0m
+[57.335s] [ 38%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/io_loop.cpp.o[0m
+[59.786s] [ 39%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/thread_base.cpp.o[0m
+[63.799s] [ 40%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/io_thread.cpp.o[0m
+[64.766s] [ 42%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/data_handler/data_handler.cpp.o[0m
+[67.995s] [ 43%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/logging.cpp.o[0m
+[86.171s] [ 44%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/hap_command_handler.cpp.o[0m
+[92.526s] In file included from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19[m[K,
+[92.527s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22[m[K,
+[92.527s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22[m[K,
+[92.528s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26[m[K,
+[92.528s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38[m[K,
+[92.529s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/command_handler/hap_command_handler.cpp:37[m[K:
+[92.530s] [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
+[92.530s]   542 | #define RAPIDJSON_PRAGMA(x) [01;35m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[92.531s]       |                             [01;35m[K^~~~~~~[m[K
+[92.531s] [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[92.532s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[92.532s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[92.533s] [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[92.534s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[92.534s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[92.534s] [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[92.535s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[92.536s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[93.147s] [ 45%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_base.cpp.o[0m
+[95.171s] [ 46%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/network/unix/network_util.cpp.o[0m
+[96.213s] [ 48%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_epoll.cpp.o[0m
+[98.192s] [ 49%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/build_request.cpp.o[0m
+[98.675s] [ 50%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_poll.cpp.o[0m
+[99.354s] [ 51%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/mid360_command_handler.cpp.o[0m
+[100.511s] [ 53%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/general_command_handler.cpp.o[0m
+[100.674s] [ 54%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/command_impl.cpp.o[0m
+[101.530s] [ 55%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_select.cpp.o[0m
+[105.290s] [ 56%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_kqueue.cpp.o[0m
+[107.974s] [ 57%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/wake_up/unix/wake_up_pipe.cpp.o[0m
+[108.584s] [ 59%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/comm/comm_port.cpp.o[0m
+[109.661s] In file included from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19[m[K,
+[109.662s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22[m[K,
+[109.662s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22[m[K,
+[109.663s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26[m[K,
+[109.663s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38[m[K,
+[109.664s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/command_handler/mid360_command_handler.cpp:37[m[K:
+[109.664s] [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
+[109.665s]   542 | #define RAPIDJSON_PRAGMA(x) [01;35m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[109.665s]       |                             [01;35m[K^~~~~~~[m[K
+[109.666s] [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[109.667s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[109.667s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[109.668s] [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[109.668s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[109.669s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[109.669s] [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[109.670s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[109.670s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[110.513s] [ 60%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/comm/sdk_protocol.cpp.o[0m
+[111.101s] [ 61%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/comm/generate_seq.cpp.o[0m
+[113.129s] [ 62%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/upgrade/firmware.cpp.o[0m
+[115.467s] [ 63%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/upgrade/livox_lidar_upgrader.cpp.o[0m
+[121.290s] [ 65%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/logger_handler/logger_manager.cpp.o[0m
+[126.733s] [ 66%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/debug_point_cloud_handler/debug_point_cloud_handler.cpp.o[0m
+[133.747s] [ 67%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/logger_handler/file_manager.cpp.o[0m
+[135.855s] [ 68%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/logger_handler/logger_handler.cpp.o[0m
+[142.158s] [ 69%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/debug_point_cloud_handler/debug_point_cloud_manager.cpp.o[0m
+[143.158s] [ 71%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/command_impl.cpp.o[0m
+[145.236s] [ 72%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/data_handler/data_handler.cpp.o[0m
+[153.590s] [ 73%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/general_command_handler.cpp.o[0m
+[154.635s] [ 74%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/hap_command_handler.cpp.o[0m
+[158.366s] [ 75%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/parse_lidar_state_info.cpp.o[0m
+[161.167s] In file included from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19[m[K,
+[161.168s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22[m[K,
+[161.169s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22[m[K,
+[161.169s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26[m[K,
+[161.170s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38[m[K,
+[161.170s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.cpp:2[m[K:
+[161.171s] [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
+[161.171s]   542 | #define RAPIDJSON_PRAGMA(x) [01;35m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[161.172s]       |                             [01;35m[K^~~~~~~[m[K
+[161.173s] [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[161.173s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[161.174s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[161.174s] [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[161.175s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[161.175s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[161.175s] [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[161.176s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[161.176s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[161.792s] In file included from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19[m[K,
+[161.793s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22[m[K,
+[161.793s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22[m[K,
+[161.794s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26[m[K,
+[161.794s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38[m[K,
+[161.795s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/command_handler/hap_command_handler.cpp:37[m[K:
+[161.795s] [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
+[161.796s]   542 | #define RAPIDJSON_PRAGMA(x) [01;35m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[161.796s]       |                             [01;35m[K^~~~~~~[m[K
+[161.797s] [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[161.798s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[161.798s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[161.798s] [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[161.799s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[161.799s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[161.800s] [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[161.800s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[161.801s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[169.020s] [ 77%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/parse_lidar_state_info.cpp.o[0m
+[170.084s] [ 78%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/build_request.cpp.o[0m
+[170.903s] [ 79%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/mid360_command_handler.cpp.o[0m
+[171.685s] In file included from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19[m[K,
+[171.686s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22[m[K,
+[171.687s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22[m[K,
+[171.687s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26[m[K,
+[171.688s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38[m[K,
+[171.688s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.cpp:2[m[K:
+[171.689s] [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
+[171.690s]   542 | #define RAPIDJSON_PRAGMA(x) [01;35m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[171.690s]       |                             [01;35m[K^~~~~~~[m[K
+[171.691s] [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[171.691s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[171.692s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[171.692s] [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[171.693s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[171.694s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[171.694s] [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[171.695s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[171.695s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[171.978s] [ 80%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/debug_point_cloud_handler/debug_point_cloud_manager.cpp.o[0m
+[172.806s] [ 81%] [32m[1mLinking CXX shared library liblivox_lidar_sdk_shared.so[0m
+[173.230s] [ 83%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/debug_point_cloud_handler/debug_point_cloud_handler.cpp.o[0m
+[176.956s] In file included from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19[m[K,
+[176.958s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22[m[K,
+[176.958s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22[m[K,
+[176.959s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26[m[K,
+[176.959s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38[m[K,
+[176.960s]                  from [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/command_handler/mid360_command_handler.cpp:37[m[K:
+[176.960s] [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K-Wpragmas[m[K]
+[176.961s]   542 | #define RAPIDJSON_PRAGMA(x) [01;35m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[176.962s]       |                             [01;35m[K^~~~~~~[m[K
+[176.962s] [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[176.963s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[176.963s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[176.963s] [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[176.964s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[176.964s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[176.965s] [01m[K/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[176.965s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[176.966s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[177.196s] [ 83%] Built target livox_lidar_sdk_shared
+[187.915s] [ 84%] [32m[1mLinking CXX static library liblivox_lidar_sdk_static.a[0m
+[190.162s] [ 84%] Built target livox_lidar_sdk_static
+[190.234s] [35m[1mScanning dependencies of target livox_lidar_quick_start[0m
+[190.235s] [35m[1mScanning dependencies of target multi_lidars_upgrade[0m
+[190.236s] [35m[1mScanning dependencies of target logger[0m
+[190.237s] [35m[1mScanning dependencies of target debug_point_cloud[0m
+[190.317s] [ 85%] [32mBuilding CXX object samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/main.cpp.o[0m
+[190.318s] [ 86%] [32mBuilding CXX object samples/multi_lidars_upgrade/CMakeFiles/multi_lidars_upgrade.dir/main.cpp.o[0m
+[190.319s] [ 87%] [32mBuilding CXX object samples/logger/CMakeFiles/logger.dir/main.cpp.o[0m
+[190.324s] [ 89%] [32mBuilding CXX object samples/livox_lidar_quick_start/CMakeFiles/livox_lidar_quick_start.dir/main.cpp.o[0m
+[192.160s] [ 90%] [32m[1mLinking CXX executable livox_lidar_quick_start[0m
+[192.356s] [ 91%] [32m[1mLinking CXX executable logger[0m
+[192.478s] [ 92%] [32m[1mLinking CXX executable debug_point_cloud[0m
+[192.617s] [ 93%] [32m[1mLinking CXX executable multi_lidars_upgrade[0m
+[195.385s] [ 93%] Built target livox_lidar_quick_start
+[195.460s] [35m[1mScanning dependencies of target livox_lidar_rmc_time_sync[0m
+[195.472s] [35m[1mScanning dependencies of target lidar_cmd_observer[0m
+[195.550s] [ 95%] [32mBuilding CXX object samples/livox_lidar_rmc_time_sync/CMakeFiles/livox_lidar_rmc_time_sync.dir/linux/synchro.cpp.o[0m
+[195.561s] [ 96%] [32mBuilding CXX object samples/livox_lidar_rmc_time_sync/CMakeFiles/livox_lidar_rmc_time_sync.dir/main.cpp.o[0m
+[195.569s] [ 97%] [32mBuilding CXX object samples/lidar_cmd_observer/CMakeFiles/lidar_cmd_observer.dir/main.cpp.o[0m
+[195.582s] [ 97%] Built target logger
+[195.664s] [ 97%] Built target debug_point_cloud
+[195.770s] [ 97%] Built target multi_lidars_upgrade
+[197.360s] [ 98%] [32m[1mLinking CXX executable lidar_cmd_observer[0m
+[197.836s] [100%] [32m[1mLinking CXX executable livox_lidar_rmc_time_sync[0m
+[200.278s] [100%] Built target lidar_cmd_observer
+[200.740s] [100%] Built target livox_lidar_rmc_time_sync
+[200.820s] Invoked command in '/home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2' returned '0': /usr/bin/cmake --build /home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2 -- -j6 -l6
+[201.015s] Invoking command in '/home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2': /usr/bin/cmake --install /home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2
+[201.063s] -- Install configuration: ""
+[201.064s] -- Installing: /home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2/lib/liblivox_lidar_sdk_static.a
+[201.376s] -- Installing: /home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2/include/livox_lidar_def.h
+[201.377s] -- Installing: /home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2/include/livox_lidar_api.h
+[201.379s] -- Installing: /home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2/include/livox_lidar_cfg.h
+[201.380s] -- Installing: /home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2/lib/liblivox_lidar_sdk_shared.so
+[201.461s] Invoked command in '/home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2' returned '0': /usr/bin/cmake --install /home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2

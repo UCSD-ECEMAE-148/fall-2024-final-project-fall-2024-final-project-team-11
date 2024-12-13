@@ -1,0 +1,221 @@
+[1.164s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DROS_EDITION=ROS2', '-DHUMBLE_ROS=']
+[1.165s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=['-DROS_EDITION=ROS2', '-DHUMBLE_ROS='], cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff83c88fd0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff83c88fd0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff83b5cfa0>)
+[2.091s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.095s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[2.097s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[2.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.099s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/projects/ros2_ws/src/external/sensors/lidar'
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.166s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.166s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.166s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.167s] Level 1:colcon.colcon_core.package_identification:_identify(livox) by extensions ['ignore', 'ignore_ament_install']
+[2.167s] Level 1:colcon.colcon_core.package_identification:_identify(livox) by extension 'ignore'
+[2.167s] Level 1:colcon.colcon_core.package_identification:_identify(livox) by extension 'ignore_ament_install'
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(livox) by extensions ['colcon_pkg']
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(livox) by extension 'colcon_pkg'
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(livox) by extensions ['colcon_meta']
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(livox) by extension 'colcon_meta'
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(livox) by extensions ['ros']
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(livox) by extension 'ros'
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(livox) by extensions ['cmake', 'python']
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(livox) by extension 'cmake'
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(livox) by extension 'python'
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(livox) by extensions ['python_setup_py']
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(livox) by extension 'python_setup_py'
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(livox/livox-SDK2) by extensions ['ignore', 'ignore_ament_install']
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(livox/livox-SDK2) by extension 'ignore'
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(livox/livox-SDK2) by extension 'ignore_ament_install'
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(livox/livox-SDK2) by extensions ['colcon_pkg']
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(livox/livox-SDK2) by extension 'colcon_pkg'
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(livox/livox-SDK2) by extensions ['colcon_meta']
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(livox/livox-SDK2) by extension 'colcon_meta'
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(livox/livox-SDK2) by extensions ['ros']
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(livox/livox-SDK2) by extension 'ros'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(livox/livox-SDK2) by extensions ['cmake', 'python']
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(livox/livox-SDK2) by extension 'cmake'
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(livox/livox-SDK2) by extension 'python'
+[2.236s] DEBUG:colcon.colcon_core.package_identification:Package 'livox/livox-SDK2' with type 'cmake' and name 'livox_sdk2'
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(livox/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(livox/livox_ros_driver2) by extension 'ignore'
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(livox/livox_ros_driver2) by extension 'ignore_ament_install'
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(livox/livox_ros_driver2) by extensions ['colcon_pkg']
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(livox/livox_ros_driver2) by extension 'colcon_pkg'
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(livox/livox_ros_driver2) by extensions ['colcon_meta']
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(livox/livox_ros_driver2) by extension 'colcon_meta'
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(livox/livox_ros_driver2) by extensions ['ros']
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(livox/livox_ros_driver2) by extension 'ros'
+[2.255s] DEBUG:colcon.colcon_core.package_identification:Package 'livox/livox_ros_driver2' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.257s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.257s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.341s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.347s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.352s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/projects/rosboard_ws/install
+[2.354s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/projects/sensor2_ws/src/lidars/ld06/ros2/install
+[2.358s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/projects/sensor2_ws/src/vesc/install
+[2.365s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/projects/ros2_ws/install
+[2.367s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/projects/sensor2_ws/src/imu/artemis_openlog/install
+[2.369s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/projects/sensor2_ws/src/cameras/oakd/install
+[2.371s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/projects/ros2_ws/src/external/sensors/lidar/install
+[2.384s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 308 installed packages in /opt/ros/foxy
+[2.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.913s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_args' from command line to '['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=']'
+[2.913s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target' from command line to 'None'
+[2.913s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.913s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_cache' from command line to 'False'
+[2.914s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_first' from command line to 'False'
+[2.914s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_force_configure' from command line to 'False'
+[2.914s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'ament_cmake_args' from command line to 'None'
+[2.914s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_cmake_args' from command line to 'None'
+[2.914s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.915s] DEBUG:colcon.colcon_core.verb:Building package 'livox_ros_driver2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/projects/ros2_ws/src/external/sensors/lidar/build/livox_ros_driver2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DROS_EDITION=ROS2', '-DHUMBLE_ROS='], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2', 'merge_install': False, 'path': '/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox_ros_driver2', 'symlink_install': False, 'test_result_base': None}
+[2.917s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_args' from command line to '['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=']'
+[2.917s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_target' from command line to 'None'
+[2.917s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.917s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_clean_cache' from command line to 'False'
+[2.917s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_clean_first' from command line to 'False'
+[2.918s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_force_configure' from command line to 'False'
+[2.918s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'ament_cmake_args' from command line to 'None'
+[2.918s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'catkin_cmake_args' from command line to 'None'
+[2.918s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.918s] DEBUG:colcon.colcon_core.verb:Building package 'livox_sdk2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DROS_EDITION=ROS2', '-DHUMBLE_ROS='], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2', 'merge_install': False, 'path': '/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2', 'symlink_install': False, 'test_result_base': None}
+[2.919s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.924s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.925s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox_ros_driver2' with build type 'ament_cmake'
+[2.926s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox_ros_driver2'
+[2.937s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.938s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.938s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.987s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2'
+[2.993s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.994s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/projects/ros2_ws/src/external/sensors/lidar/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam:/home/projects/rosboard_ws/install/rosboard:/home/projects/sensor2_ws/src/vesc/install/joy_teleop:/home/projects/sensor2_ws/src/vesc/install/mouse_teleop:/home/projects/sensor2_ws/src/vesc/install/key_teleop:/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof:/opt/ros/foxy /usr/bin/cmake /home/projects/ros2_ws/src/external/sensors/lidar/livox/livox_ros_driver2 -DROS_EDITION=ROS2 -DHUMBLE_ROS= -DCMAKE_INSTALL_PREFIX=/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2
+[3.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2': /usr/bin/cmake /home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2 -DROS_EDITION=ROS2 -DHUMBLE_ROS= -DCMAKE_INSTALL_PREFIX=/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2
+[6.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2' returned '0': /usr/bin/cmake /home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2 -DROS_EDITION=ROS2 -DHUMBLE_ROS= -DCMAKE_INSTALL_PREFIX=/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2
+[6.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2': /usr/bin/cmake --build /home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2 -- -j6 -l6
+[39.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/projects/ros2_ws/src/external/sensors/lidar/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam:/home/projects/rosboard_ws/install/rosboard:/home/projects/sensor2_ws/src/vesc/install/joy_teleop:/home/projects/sensor2_ws/src/vesc/install/mouse_teleop:/home/projects/sensor2_ws/src/vesc/install/key_teleop:/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof:/opt/ros/foxy /usr/bin/cmake /home/projects/ros2_ws/src/external/sensors/lidar/livox/livox_ros_driver2 -DROS_EDITION=ROS2 -DHUMBLE_ROS= -DCMAKE_INSTALL_PREFIX=/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2
+[39.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/projects/ros2_ws/src/external/sensors/lidar/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam:/home/projects/rosboard_ws/install/rosboard:/home/projects/sensor2_ws/src/vesc/install/joy_teleop:/home/projects/sensor2_ws/src/vesc/install/mouse_teleop:/home/projects/sensor2_ws/src/vesc/install/key_teleop:/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof:/opt/ros/foxy /usr/bin/cmake --build /home/projects/ros2_ws/src/external/sensors/lidar/build/livox_ros_driver2 -- -j6 -l6
+[163.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/projects/ros2_ws/src/external/sensors/lidar/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam:/home/projects/rosboard_ws/install/rosboard:/home/projects/sensor2_ws/src/vesc/install/joy_teleop:/home/projects/sensor2_ws/src/vesc/install/mouse_teleop:/home/projects/sensor2_ws/src/vesc/install/key_teleop:/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof:/opt/ros/foxy /usr/bin/cmake --build /home/projects/ros2_ws/src/external/sensors/lidar/build/livox_ros_driver2 -- -j6 -l6
+[164.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/projects/ros2_ws/src/external/sensors/lidar/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam:/home/projects/rosboard_ws/install/rosboard:/home/projects/sensor2_ws/src/vesc/install/joy_teleop:/home/projects/sensor2_ws/src/vesc/install/mouse_teleop:/home/projects/sensor2_ws/src/vesc/install/key_teleop:/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof:/opt/ros/foxy /usr/bin/cmake --install /home/projects/ros2_ws/src/external/sensors/lidar/build/livox_ros_driver2
+[165.013s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[165.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/projects/ros2_ws/src/external/sensors/lidar/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam:/home/projects/rosboard_ws/install/rosboard:/home/projects/sensor2_ws/src/vesc/install/joy_teleop:/home/projects/sensor2_ws/src/vesc/install/mouse_teleop:/home/projects/sensor2_ws/src/vesc/install/key_teleop:/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof:/opt/ros/foxy /usr/bin/cmake --install /home/projects/ros2_ws/src/external/sensors/lidar/build/livox_ros_driver2
+[165.034s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2' for CMake module files
+[165.040s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2' for CMake config files
+[165.045s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[165.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[165.053s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[165.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[165.064s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/lib'
+[165.065s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[165.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[165.069s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[165.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[165.074s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/bin'
+[165.074s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[165.076s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/lib/python3.8/site-packages'
+[165.076s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'pythonpath')
+[165.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/hook/pythonpath.ps1'
+[165.080s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/hook/pythonpath.dsv'
+[165.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/hook/pythonpath.sh'
+[165.086s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/bin'
+[165.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[165.093s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[165.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[165.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[165.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[165.112s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[165.980s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[165.983s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2' for CMake module files
+[165.991s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2' for CMake config files
+[165.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[165.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[166.002s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[166.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[166.009s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/lib'
+[166.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[166.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[166.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[166.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[166.019s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/bin'
+[166.019s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[166.021s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/lib/python3.8/site-packages'
+[166.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'pythonpath')
+[166.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/hook/pythonpath.ps1'
+[166.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/hook/pythonpath.dsv'
+[166.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/hook/pythonpath.sh'
+[166.031s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/bin'
+[166.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[166.037s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[166.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[166.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[166.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[166.051s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[203.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2' returned '0': /usr/bin/cmake --build /home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2 -- -j6 -l6
+[204.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2': /usr/bin/cmake --install /home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2
+[204.448s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_sdk2)
+[204.452s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2' for CMake module files
+[204.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2' returned '0': /usr/bin/cmake --install /home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2
+[204.457s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2' for CMake config files
+[204.459s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2/lib'
+[204.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_sdk2', 'ld_library_path_lib')
+[204.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2/share/livox_sdk2/hook/ld_library_path_lib.ps1'
+[204.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2/share/livox_sdk2/hook/ld_library_path_lib.dsv'
+[204.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2/share/livox_sdk2/hook/ld_library_path_lib.sh'
+[204.471s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2/bin'
+[204.472s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2/lib/pkgconfig/livox_sdk2.pc'
+[204.474s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2/lib/python3.8/site-packages'
+[204.474s] Level 1:colcon.colcon_core.environment:checking '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2/bin'
+[204.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2/share/livox_sdk2/package.ps1'
+[204.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2/share/livox_sdk2/package.dsv'
+[204.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2/share/livox_sdk2/package.sh'
+[204.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2/share/livox_sdk2/package.bash'
+[204.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2/share/livox_sdk2/package.zsh'
+[204.488s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2/share/colcon-core/packages/livox_sdk2)
+[204.490s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[204.493s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[204.495s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[204.496s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[204.537s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[204.538s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[204.538s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[204.539s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[204.912s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[204.915s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[204.919s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/projects/ros2_ws/src/external/sensors/lidar/install/local_setup.ps1'
+[204.926s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/projects/ros2_ws/src/external/sensors/lidar/install/_local_setup_util_ps1.py'
+[204.934s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/projects/ros2_ws/src/external/sensors/lidar/install/setup.ps1'
+[204.947s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/projects/ros2_ws/src/external/sensors/lidar/install/local_setup.sh'
+[204.950s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/projects/ros2_ws/src/external/sensors/lidar/install/_local_setup_util_sh.py'
+[204.953s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/projects/ros2_ws/src/external/sensors/lidar/install/setup.sh'
+[204.966s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/projects/ros2_ws/src/external/sensors/lidar/install/local_setup.bash'
+[204.969s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/projects/ros2_ws/src/external/sensors/lidar/install/setup.bash'
+[204.981s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/projects/ros2_ws/src/external/sensors/lidar/install/local_setup.zsh'
+[204.984s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/projects/ros2_ws/src/external/sensors/lidar/install/setup.zsh'

@@ -1,0 +1,6 @@
+Invoking command in '/home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2': /usr/bin/cmake /home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2 -DROS_EDITION=ROS2 -DHUMBLE_ROS= -DCMAKE_INSTALL_PREFIX=/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2
+Invoked command in '/home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2' returned '0': /usr/bin/cmake /home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2 -DROS_EDITION=ROS2 -DHUMBLE_ROS= -DCMAKE_INSTALL_PREFIX=/home/projects/ros2_ws/src/external/sensors/lidar/install/livox_sdk2
+Invoking command in '/home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2': /usr/bin/cmake --build /home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2 -- -j6 -l6
+Invoked command in '/home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2' returned '0': /usr/bin/cmake --build /home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2 -- -j6 -l6
+Invoking command in '/home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2': /usr/bin/cmake --install /home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2
+Invoked command in '/home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2' returned '0': /usr/bin/cmake --install /home/projects/ros2_ws/src/external/sensors/lidar/build/livox_sdk2

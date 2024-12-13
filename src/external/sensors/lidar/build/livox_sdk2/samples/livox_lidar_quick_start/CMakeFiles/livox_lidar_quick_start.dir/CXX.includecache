@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/include/livox_lidar_api.h
+stdbool.h
+-
+stdint.h
+-
+livox_lidar_def.h
+/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/include/livox_lidar_def.h
+
+/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/include/livox_lidar_def.h
+stdint.h
+-
+
+/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/samples/livox_lidar_quick_start/main.cpp
+livox_lidar_def.h
+/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/samples/livox_lidar_quick_start/livox_lidar_def.h
+livox_lidar_api.h
+/home/projects/ros2_ws/src/external/sensors/lidar/livox/livox-SDK2/samples/livox_lidar_quick_start/livox_lidar_api.h
+winsock2.h
+-
+unistd.h
+-
+arpa/inet.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+thread
+-
+chrono
+-
+iostream
+-
+
