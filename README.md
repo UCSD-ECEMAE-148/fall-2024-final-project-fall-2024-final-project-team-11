@@ -227,12 +227,12 @@ robocar/repos/racer.repos:
 - https://github.com/ros-perception/pointcloud_to_laserscan/tree/foxy
 #
 In this code change the Triton AI to hku-mars/FAST LIO… 
-`Git.clone https://github.com/hku-mars/FAST_LIO/tree/ROS2`
+- `Git.clone https://github.com/hku-mars/FAST_LIO/tree/ROS2`
   - Change IP address of livox_ros_driver2/config/MID360_config.json
   - Change line 28 to 192.168.1.124
 ## Launching Lidar
 - Git clone: https://github.com/koide3/livox_to_pointcloud2
-`ros2 launch livox_ros_driver2 rviz_MID360_launch.py`
+- `ros2 launch livox_ros_driver2 rviz_MID360_launch.py`
 
 ## Installing Livox-Pointcloud2
 Launch `ros2 run livox_to_pointcloud2 livox_to_pointcloud2_node`
